@@ -33,4 +33,112 @@ body{
 .fondomobile{
     position: absolute;
     top: 0px;
+    z-index: -1;
+    width: 640px;
+}
+.fondodesktop{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.main{
+    width: 327px;
+    background-color: #FFF;
+    border-radius:20px;
+    margin-inline: auto;
+    margin-top: 71px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.152);
+}
+
+.imgportada{
+    border-radius: 20px 20px 0px 0px ;
+}
+.content{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 22px;
+    color: #1F2E55;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.text{
+    width: 263px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #717FA6;
+    line-height: 25px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.plan{
+    width: 279px;
+    padding: 16px;
+    height: 81px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.plan_anual{
+    display: flex;
+    flex-direction: column;
+    width: 81px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.h4black{
+    font-weight: 900;
+    font-size: 14px;
+    color: #1F2E55;
+    margin-bottom: 3px;
+}
+
+.h4med{
+    font-weight: 500;
+    font-size: 14px;
+    color: #717FA6;
+    margin-top: 3px;
+}
+
+.h4sub{
+    font-weight: 700;
+    font-size: 13px;
+    color: #382AE1;
+    text-decoration: underline;
+}
+
+.cta{
+    width: 279px;
+    height: 50px;
+    background-color: #382AE1;
+    border-radius: 11px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #FFF;
+    box-shadow: 0px 20px 20px 0px rgba(57, 42, 225, 0.19);
+}
+
+.cancel{
+    font-weight: 900;
+    font-size: 15px;
+    color: #717FA6;
+    text-align: center;
+    margin-top: 24px;
 }
