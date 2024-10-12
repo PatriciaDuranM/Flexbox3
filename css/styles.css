@@ -24,6 +24,13 @@ ul{
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     margin: 0;
+    background-color: #E0E8FF;
+    position: relative;
+}
+
+.fondomobile{
+    position: absolute;
+    top: 0px;
 }
