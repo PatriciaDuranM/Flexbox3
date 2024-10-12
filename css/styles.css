@@ -36,11 +36,22 @@ body{
     z-index: -1;
     width: 640px;
 }
+@media screen and (width>786px) {
+    .fondodesktop{
+        opacity: 0;
+    }
+}
 .fondodesktop{
     position: absolute;
     top: 0px;
     opacity: 0;
     z-index: -1;
+}
+
+@media screen and (width>786px) {
+    .fondodesktop{
+        opacity: 1;
+    }
 }
 
 .main{
@@ -52,6 +63,12 @@ body{
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.152);
 }
 
+@media screen and (width>786px) {
+    .main{
+        width: 450px;
+    }
+}
+
 .imgportada{
     border-radius: 20px 20px 0px 0px ;
 }
@@ -60,6 +77,15 @@ body{
     padding-bottom: 32px;
     padding-left: 24px;
     padding-right: 24px;
+}
+
+@media screen and (width>786px) {
+    .content{
+        padding-top: 45px;
+        padding-bottom: 48px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
 }
 
 .title{
@@ -79,7 +105,14 @@ body{
     margin-top: 16px;
     text-align: center;
 }
-
+@media screen and (width>786px) {
+    .text{
+        width: 354px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 17px;
+    }
+}
 .plan{
     width: 279px;
     padding: 16px;
@@ -92,6 +125,13 @@ body{
     margin-top: 24px;
     margin-bottom: 20px;
 }
+@media screen and (width>786px) {
+    .plan{
+        width: 354px;
+        padding: 24px;
+        margin-bottom: 32px;
+    }
+}
 
 .plan_anual{
     display: flex;
@@ -101,11 +141,24 @@ body{
     margin-left: 20px;
 }
 
+@media screen and (width>786px) {
+    .plan_anual{
+        margin-right: 94px;
+        width: 92px;
+    }
+}
+
+
 .h4black{
     font-weight: 900;
     font-size: 14px;
     color: #1F2E55;
     margin-bottom: 3px;
+}
+@media screen and (width>786px) {
+    .h4black{
+        font-size: 16px;
+    }
 }
 
 .h4med{
@@ -114,12 +167,29 @@ body{
     color: #717FA6;
     margin-top: 3px;
 }
+@media screen and (width>786px) {
+    .h4med{
+        font-size: 16px;
+    }
+}
 
 .h4sub{
     font-weight: 700;
     font-size: 13px;
     color: #382AE1;
     text-decoration: underline;
+}
+@media screen and (width>786px) {
+    .h4sub{
+        font-size: 14px;
+    }
+}
+
+@media (hover: hover){
+    .h4sub:hover{
+        color: #766CF1;
+        text-decoration: none;
+        }
 }
 
 .cta{
@@ -133,6 +203,20 @@ body{
     font-size: 15px;
     color: #FFF;
     box-shadow: 0px 20px 20px 0px rgba(57, 42, 225, 0.19);
+    margin-bottom: 24px;
+}
+
+@media screen and (width>786px) {
+    .cta{
+        width: 354px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (hover: hover){
+    .cta:hover{
+        background-color: #766CF1;
+        }
 }
 
 .cancel{
@@ -140,5 +224,10 @@ body{
     font-size: 15px;
     color: #717FA6;
     text-align: center;
-    margin-top: 24px;
+}
+
+@media (hover: hover){
+    .cancel:hover{
+        color: #1F2E55;
+        }
 }
